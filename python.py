@@ -25,3 +25,23 @@ print(enemyDictionary)
 for (rank, enemy) in enemyDictionary.items():
     print(enemyDictionary[rank] + "が現れた")
     print(rank + "の" + enemy + "が現れた")
+
+
+# リストの整列 
+
+wepons = ["2.イージスト","1.ウインドスピア","3.アースブレイカー","4.稲妻ハンマー"]
+
+print(wepons)
+
+print(sorted(wepons))
+print(sorted(wepons, reverse=True))
+
+# 辞書の配列
+wepons = {"イージスト":40, "ウインドスピア":12, "アースブレイカー": 50, "4.稲妻ハンマー":99}
+print(wepons)
+
+print(sorted(wepons))
+
+# アイテム一覧
+
+
